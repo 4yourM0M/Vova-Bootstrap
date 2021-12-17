@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1-8(3) fix</title>
+    <link rel="stylesheet" href="add_style.css">
+    <link rel="stylesheet" href="add_reset.css">
+    <link rel="stylesheet" href="grid-sys.css">
+    <!-- підключив css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Підключив CSS Bootstrap  -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <!-- Підключив Separate Popper and Bootstrap JS -->
+</head>
+
+<body>
+    <div class="header">
+        <div class="cross dropdown">
+            <div class="dropbtn"><img src="./images/cross.png" alt=""></div>
+            <div class="dropdown-content">
+                <a href="index.html" class="a1">Головна сторінка</a>
+                <a href="vova-bootstrap.html" class="a2-7">Bootstrap</a>
+                <a href="main.html" class="a2-7">Захоплення</a>
+                <a href="contact.html" class="a2-7">Контакти</a>
+                <a href="parallax.html" class="a2-7">Паралакс-ефект</a>
+                <a href="responsive-flex.html" class="a2-7">Адаптивний сайт</a>
+                <a href="add_site.html" class="a2-7">Додаткова сторінка</a>
+            </div>
+        </div>
+        <div class="burger-menu">
+            <input id="menu-toggle" type="checkbox" />
+            <label class="menu-btn" for="menu-toggle">
+                <span></span>
+            </label>
+            <ul class="menubox">
+                <li><a href="index.html" class="header__link a1">Головна сторінка</a></li>
+                <li> <a href="#" class="header__link a2-7">Bootstrap</a></li>
+                <li> <a href="main.html" class="header__link a2-7">Захоплення</a></li>
+                <li> <a href="contact.html" class="header__link a2-7">Контакти</a></li>
+                <li> <a href="parallax.html" class="header__link a2-7">Паралакс-ефект</a></li>
+                <li> <a href="responsive-flex.html" class="header__link a2-7">Адаптивний сайт</a></li>
+                <li> <a href="add_site.html" class="header__link a2-7">Додаткова сторінка</a></li>
+            </ul>
+        </div>
+        <div class="suffix-start">
+            <a href="#">
+                <img src="./photo_new/suffix.jpg" class="suffix" alt="">
+            </a>
+        </div>
+    </div>
+    <!-- /////////// -->
+    <section class="slider">
+        <div class="sl-left-center">
+            <div class="slider-left"></div>
+        </div>
+        <div class="slider-right">
+            <div class="sl-ri-si">
+                <div class="text margin-slider">
+                    <div class="data00 sl-marg color text-property"><span>10/10/2021</span> </div>
+                    <div class="left-life color text-property"><span> <ins>LIFESTYLE</ins></span></div>
+                </div>
+                <div class="lorem00 text-property"><span>At vero eos et accusamus et</span></div>
+                <div class="lorem00-1 text-property"><span>odio dignissimos ducimus qui blanditiis praesentium
+                        voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                        occaecati</span></div>
+                <div class="read-txt"><a class="color read-more" href="https://apod.nasa.gov/apod/astropix.html">READ
+                        MORE</a> </div>
+            </div>
+        </div>
+    </section>
+    <!-- /////////// -->
+    <div class="featured-txt">
+        <p>Featured</p>
+    </div>
+    <!-- /////////// -->
+    <section class="featured-p">
+        <div class="one-block">
+            <div><img src="./images/featured-left.png" class="size-ph-one" alt=""></div>
+            <div class="text margin2">
+                <div class="data text-property"><span>10/10/2021</span> </div>
+                <div class="life text-property"><span> <ins>LIFESTYLE</ins></span></div>
+            </div>
+            <div class="lorem1 text-property"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span></div>
+            <div class="lorem2 text-property"><span>ut aut reiciendis voluptatibus maiores alias consequatur aut
+                    perferendis doloribus asperiores repellat.</span> </div>
+        </div>
+        <div class="two-block">
+            <div><img src="./images/featured-right.png" class="size-ph-one" alt=""></div>
+            <div class="text margin2">
+                <div class="data text-property"><span>10/10/2021</span> </div>
+                <div class="life text-property"><span> <ins>LIFESTYLE</ins></span></div>
+            </div>
+            <div class="lorem1 text-property">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+            <div class="lorem2 text-property">ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis
+                doloribus asperiores repellat.</div>
+        </div>
+    </section>
+    <!-- //////////////// -->
+    <div class="three-block">
+        <div class="one-photo">
+            <div><img src="./images/img-1.png" class="size-ph-two" alt=""></div>
+            <div class="text margin2-1">
+                <div class="data1 text-property"><span>10/10/2021</span> </div>
+                <div class="life1 text-property"><span> <ins>LIFESTYLE</ins></span></div>
+            </div>
+            <div class="lorem1-1 text-property">At vero eos et accusamus et iusto</div>
+        </div>
+        <div class="two-photo">
+            <div><img src="./images/img-2.png" class="size-ph-two" alt=""></div>
+            <div class="text margin2-1">
+                <div class="data1 text-property"><span>10/10/2021</span> </div>
+                <div class="life1 text-property"><span> <ins>LIFESTYLE</ins></span></div>
+            </div>
+            <div class="lorem1-1 text-property">At vero eos et</div>
+        </div>
+        <div class="three-photo">
+            <div><img src="./images/img-3.png" class="size-ph-two" alt=""></div>
+            <div class="text margin2-1">
+                <div class="data1 text-property"><span>10/10/2021</span> </div>
+                <div class="life1 text-property"><span> <ins>LIFESTYLE</ins></span></div>
+            </div>
+            <div class="lorem1-1 text-property">At vero eos et accusamus et iusto</div>
+        </div>
+    </div>
+    <!-- /////////// -->
+    <div class="fix-margin">
+        <div class="button">
+            <div class="see-all text-property"><a class="txt-center color" href="http://papertoilet.com/">HAVE A FUN</a>
+            </div>
+        </div>
+    </div>
+    <!-- /////////// -->
+    <div class="fix-margin">
+        <section class="slider2">
+            <div class="slider-left2"><img class="s-left2" src="./images/slider-left2.png" alt=""></div>
+            <div class="slider-right2">
+                <div class="empty"></div>
+                <div class="margin-issue">
+                    <span class="color text-property issue">ISSUE 22 - MAY 2021</span>
+                </div>
+                <div class="subscribe-txt"><span class="color subsc-now">SUBSCRIBE NOW</span></div>
+            </div>
+        </section>
+    </div>
+    <!-- /////////// -->
+    <div class="interview-txt">
+        <p>Interview</p>
+    </div>
+    <!-- /////////// -->
+    <div class="fix-margin">
+        <section class="interviews">
+            <div class="interv0">
+                <div><img src="./images/img-5.png" class="size-ph-two" alt=""></div>
+                <div class="text margin2-1">
+                    <div class="data2 text-property"><span>10/10/2021</span> </div>
+                    <div class="life2 text-property"><span> <ins>INTERVIEWS</ins></span></div>
+                </div>
+                <div class="lorem1-2 text-property">At vero eos et accusamus et iusto</div>
+            </div>
+            <div class="interview1 interv02">
+                <div><img src="./images/img-6.png" class="size-ph-two"></div>
+                <div class="text margin2-1">
+                    <div class="data2 text-property"><span>10/10/2021</span> </div>
+                    <div class="life2 text-property"><span> <ins>INTERVIEWS</ins></span></div>
+                </div>
+                <div class="lorem1-2 text-property">At vero eos et</div>
+            </div>
+            <div class="interview1 interv03">
+                <div><img src="./images/img-7.png" class="size-ph-two"></div>
+                <div class="text margin2-1">
+                    <div class="data2 text-property"><span>10/10/2021</span> </div>
+                    <div class="life2 text-property"><span> <ins>INTERVIEWS</ins></span></div>
+                </div>
+                <div class="lorem1-2 text-property">At vero eos et accusamus et iusto</div>
+            </div>
+        </section>
+    </div>
+    <!-- /////////// -->
+    <div class="fix-margin">
+        <div class="button2">
+            <div class="see-all text-property"><a class="txt-center color" href="https://pointerpointer.com/">HAVE A
+                    FUN</a></div>
+        </div>
+    </div>
+    <!-- /////////// -->
+    <div class="news-txt">
+        <p>News</p>
+    </div>
+    <!-- /////////// -->
+    <div class="fix-margin">
+        <section class="news">
+            <div class="interv0">
+                <div><img src="./images/img-8.jpg" class="size-ph-two"></div>
+                <div class="text margin2-1">
+                    <div class="data3 text-property"><span>10/10/2021</span> </div>
+                    <div class="life3 text-property"><span> <ins>NEWS</ins></span></div>
+                </div>
+                <div class="lorem1-2 text-property">At vero eos et accusamus et iusto</div>
+            </div>
+            <div class="interview1">
+                <div><img src="./images/img-9.jpg" class="size-ph-two"></div>
+                <div class="text margin2-1">
+                    <div class="data3 text-property"><span>10/10/2021</span> </div>
+                    <div class="life3 text-property"><span> <ins>NEWS</ins></span></div>
+                </div>
+                <div class="lorem1-2 text-property">At vero eos et</div>
+            </div>
+            <div class="interview1">
+                <div><img src="./images/img-10.jpg" class="size-ph-two"></div>
+                <div class="text margin2-1">
+                    <div class="data3 text-property"><span>10/10/2021</span> </div>
+                    <div class="life3 text-property"><span> <ins>NEWS</ins></span></div>
+                </div>
+                <div class="lorem1-2 text-property">At vero eos et accusamus et iusto</div>
+            </div>
+        </section>
+    </div>
+    <!-- /////////// -->
+    <div class="fix-margin">
+        <div class="button3">
+            <div class="see-all text-property"><a class="txt-center color" href="https://www.omfgdogs.com/#">HAVE A
+                    FUN</a></div>
+        </div>
+    </div>
+    <!-- /////////// -->
+    <div class="fix-margin">
+        <div class="own-container2">
+            <div class="fill_1"><span class="lorem-txt style-font_libre">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Ac
+                    dictum nibh nam odio cursus id. Diam massa semper a tincidunt cursus ultricies lectus eget
+                    urna.</span></div>
+            <div class="fill_2">
+                <img class="fiil_2-img" src="./images/Rectangle 1.png" alt="">
+            </div>
+            <div class="fill_3">
+                <img class="fiil_3-img" src="./images/Mask Group 2.png" alt="">
+            </div>
+            <div class="fill_4">
+                <img class="fiil_4-img" src="./images/Rectangle 3.png" alt="">
+            </div>
+            <div class="fill_5">
+                <img class="fiil_5-img" src="./images/Rectangle 4.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- створив власну grid-system -->
+    <!-- /////////////////////// -->
+    <div class="suffix-end"> </div>
+</body>
+
+</html>
